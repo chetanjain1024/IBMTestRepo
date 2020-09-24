@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="IBMTestingNew">
+
+
+	<test name="IBM Testing New">
+		
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.PageObject.TC_HomePage" />
+			 <class name="com.PageObject.TC_WeatherCheck" />
+		</classes>
+
+	</test>
+
+</suite>
